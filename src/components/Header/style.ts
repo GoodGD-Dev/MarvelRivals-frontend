@@ -2,9 +2,13 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
   background-color: black;
-  padding: 12px;
+  padding: 6px;
   display: flex;
   justify-content: space-around;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 
   @media (max-width: 600px) {
     display: block;
