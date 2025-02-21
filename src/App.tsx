@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <EstiloGlobal />
       <Header />
-      <HeroesPage />
+      <Home />
     </Provider>
   )
 }

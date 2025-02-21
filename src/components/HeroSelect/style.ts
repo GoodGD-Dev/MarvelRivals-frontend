@@ -20,14 +20,15 @@ export const Grid = styled.ul`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   text-align: center;
-
-  @media (max-width: 600px) {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  }
 `
 
 export const GridItem = styled.li`
   img {
+    height: 329px;
+    width: 181px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 1rem;
     &:hover {
       filter: grayscale(2);
       cursor: pointer;
